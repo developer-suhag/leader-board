@@ -238,3 +238,28 @@ footer P {
     align-items: center;
   }
 }
+/* table devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 25px 0;
+  }
+  .players,
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top-blogs,
+  .top-players,
+  .courses {
+    padding: 0 30px;
+  }
+  .top-players {
+    padding-bottom: 30px;
+  }
+  .course-heading {
+    padding-left: 30px;
+  }
+}
