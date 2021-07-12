@@ -84,3 +84,33 @@ hr {
   color: #562eff;
   text-decoration: none;
 }
+
+/* lates courses */
+.course-banner img {
+  width: 266px;
+  height: 141px;
+}
+.course-detail .course-title {
+  color: #1e1e1e;
+  font-size: 21px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.course-detail p {
+  color: #ed6b4f;
+  font-size: 16px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+  opacity: 0.25;
+}
